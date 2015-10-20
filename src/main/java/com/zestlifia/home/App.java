@@ -18,11 +18,11 @@ public class App  extends WebMvcConfigurerAdapter {
     // static resources
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/zest/**").addResourceLocations("/WEB-INF/zest/");
+        registry.addResourceHandler("/zestlifia/**").addResourceLocations("/WEB-INF/zestlifia/");
     }
     
     @RequestMapping("/")
     public String enter() {
-      return "redirect:/zest/index.html";
+      return "redirect:/zestlifia/index.html";
     }
 }
