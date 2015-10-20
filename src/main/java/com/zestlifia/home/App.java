@@ -5,17 +5,24 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Controller
 @SpringBootApplication
-public class App {
+public class App  extends WebMvcConfigurerAdapter {
     public static void main( String[] args ) {
     	SpringApplication.run(App.class, args);
     }
+
+    // static resources
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/zest/**").addResourceLocations("/WEB-INF/zest/");
+    }
     
     @RequestMapping("/")
-    @ResponseBody
-    String home() {
-      return "Zestlifia";
+    public String enter() {
+      return "redirect:/zest/index.html";
     }
 }
