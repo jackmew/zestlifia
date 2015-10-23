@@ -1,0 +1,117 @@
+{
+  "head": {
+  	"softwareEngineer": "Software Engineer",
+  	"webDesigner": "Website Designer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "chinese": "中文"
+  },
+  "about": {
+  	"me": "ABOUT ME",
+  	"how": "Become what people & how to live",
+  	"name": "Chi-Feng Ho",
+  	"job": "Software Engineer & Web Developer from Taiwan",
+  	"creatorDetail": "Create the wheel with my own hand, excited to see how fast it can run",
+  	"creator": "CREATOR",
+  	"programmerDetail": "Understanding the details and principles for modifying and strengthening people's wheels",
+  	"programmer": "PROGRAMMER",
+  	"architectDetail": "Understanding the characteristics and construction of the wheel for building algorithms and overall architecture. To make the wheel has the strongest performance",
+  	"architect": "ARCHITECT",
+  	"designerDetail": "To make the wheel be an artistic creation",
+  	"designer": "DESIGNER",
+  	"lifeDetail": "In different periods of time, make different self-positioning",
+  	"life": "MY LIFE",
+  	"enjoyDetail": "Never forget",
+  	"enjoy": "plunge and enjoy"
+  },
+  "tech": {
+  	"title": "TECHNICAL Skills",
+  	"toolbox": "My Toolbox",
+  	"javaDetail": "Stronly Typed Screwdriver",
+  	"springDetail": "Enhanced Tool Kits",
+	"jpaDetail": "Enhanced Data Management Tool Kits",
+	"vaadinDetail": "Enhanced View Management Tool Kits",
+	"htmlDetail": "Screws, Board, Paints",
+  	"jsDetail": "Loosely Typed Screwdriver",
+  	"angularDetail": "Enhanced Tool Kits",
+  	"sqlDetail": "Date Management Screwdriver"
+  },
+  "ex": {
+  	"work": "WORK EXPERIENCE",
+  	"workDetail": "Self-positioning in different periods of time",
+
+  	"201410Company": "LeanDev",
+  	"201410Title": "Visual / UI Designer",
+  	"201410Desc1": "Develope MediaTek Talented Acquisition System(TAS). I responsible for the whole view and design the user interface with vaadin framework. Begin the project, I write a lot to familier with Vaadin features, like Data Binding. Then I build my own Components/Utilities , some of them extend from the original Vaadin components using Java inheritance.",
+  	"201410Desc2": "The pressure of writing a large number of code, the new features and the old issues, push me to realize that my code must be modified and maintained easily and fast or I need to work overtime. In fact, the begining I already encapsule my code, name my variable with some basic coding style. Furthor more, I try to rule every module to the same style so that with Eclipse I can press 'cmd+o' to find funciton, 'cmd+shif+r' to find class very quickly. And create utilities with polymorphism.",
+
+  	"201403Desc1": "Develope fireSystem, a case from graduate student. I try to build a full-stack javaScript project. I develope front-end with jQuery Mobile, build back-end with express(node.js), connect MongoDB and manage the data with mongoose. Finally turn the web app into mobile app with Cordova. Yes, this project can run on the web and mobile. It's awesome ! Without consider about performance XD",
+  	"201403Desc2": "Develope eCard, a case from a small office in Taiwan, got from a company in China. This project focus on image processing. I choose Kinect.js to process the effect of transform, zoom, rotation.. As soon as eCard grow large, I learn the Presentaion Model Patten to split my code into many modules and plug the Require.js to load the modules. Then I can add other many libraries easily like jqueryUI, flowplayer..",
+  	"201403Desc3": "Develope myhp, a case from the same guy. It's a intellectual property management system using GAE and Angular.",
+  	"201403Desc4": "I learn how to design features, manage schedule, communicate with customer and realize what the really problem Product Manger will face to. ",
+
+  	"titleSe": "Software Engineer",
+  	"201310Desc1": "Switch to a Macintosh and fascinated with bash Terminal. I study git, homebrew, node, heroku and other awesome stuff by myself.",
+  	"201310Desc2": "Maintain Chinatrust Commercial Bank projects(Sk, Tbs). It's the first time to work with such large scale J2EE project. We manage dependencies and compile program using Maven, manage version control by CornerStone(Subversion), manage issues/features.. using Redmine. Tested and debugged legacy code written by senior developers using Eclipse.",
+  	"201310Desc3": "Develope Travel4u project(RichCard) using SpringMVC, JSP.",
+  	"201310Desc4": "Develope DayLght project(Wase). We develope front-end using jQuery Mobile, back-end using Spring Restful which connected with MongoDB."
+  },
+  "education": {
+  	"title": "Education & Certification",
+  	"titleDetail": "Learning never ended",
+  	"bachelor": "Bachelor Degree of Computer Science and Engineering",
+  	"university": "National Taipei University of Technology",
+  	"course1": "Computer Programming",
+  	"course2": "Object-Oriented Programming",
+  	"course3": "Operating Systems",
+  	"course4": "Computer Algorithms",
+  	"course5": "Data Structure",
+  	"certification": "Certification"
+  },
+  "portfolio": {
+  	"title": "Portfolio",
+  	"titleDetail": "my projects"
+  },
+  "contact": {
+  	"title": "Get In Touch",
+  	"titleDetail": "Chat"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
