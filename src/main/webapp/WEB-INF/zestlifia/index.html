@@ -10,7 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--main style-->
 <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css">
 <!--background slider style-->
 <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 <!--google font style-->
@@ -31,16 +33,13 @@
 <div class="wrapper" id="wrapper">
   <header>
     <!--banner start-->
-    <div class="banner row" id="banner">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
-        <!--background slide show start-->
-        <ul class="cb-slideshow">
-          <li><span>Image 01</span></li>
-          <li><span>Image 02</span></li>
-          <li><span>Image 03</span></li>
-        </ul>
-        <!--background slide show end-->
-      </div>
+    <div class="banner video-background" id="banner">
+           <!-- START VIDEO BACKGROUND -->
+        <video poster="head_bg/video-background-poster.jpg" autoplay loop muted>
+            <source src="head_bg/video-background.webm" type="video/webm">
+            <source src="head_bg/video-background.mp4" type="video/mp4">
+            <source src="head_bg/video-background.ogv" type="video/ogg">
+        </video><!-- END VIDEO BACKGROUND -->
     </div>
     <!--banner end-->
     <div class="bannerText container">

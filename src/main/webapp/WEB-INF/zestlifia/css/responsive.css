@@ -1,0 +1,18 @@
+@media screen and (max-width: 1050px) {
+
+    /* --------------------------------------------------------------------- */
+    /* Header
+    /* --------------------------------------------------------------------- */
+
+    .video-background {
+        background-image: url('../head_bg/video-background-poster.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .video-background video {
+        display: none;
+    }
+}
